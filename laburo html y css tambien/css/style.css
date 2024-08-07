@@ -1,0 +1,92 @@
+@import url(https://fonts.google.com/);
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+min-height: 100vh;
+background: #add8e6;
+}
+
+.contenedor{
+display: grid;
+grid-template-columns: 1fr 2fr;
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+background: #fff;
+box-shadow: 0 35px 55px #0000001a;
+}
+
+.contenedor .lado-izquierdo{
+position: relative;
+padding: 40px;
+background: #993300;
+}
+ 
+.contenedor .lado-derecho{
+position: relative;
+padding: 40px;
+background: #fff;
+}
+
+.nombre-y-apellido {
+display: flex;
+flex-direction: column;
+position: relative;
+padding-bottom: 20px;
+border-bottom: 1px solid #ffffff33;
+}
+
+.nombre-y-apellido{
+  margin-top: 26px;  
+font-size: 1.5em;
+font-weight: 600;
+line-height: 1.4em;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+}
+ .titulo-audio  {
+padding-top: 10px;
+ }   
+.titulo-video{
+  padding-top: 10px;
+}
+.titulo-diseño-grafico{
+  padding-top: 30px;
+}
+.titulo-experiencia{
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+color: #000;
+}
+.presente {
+  padding-top: 20px;
+}
+
+.educacion-secundaria {
+  padding-top: 20px;
+}
+.educacion-primaria {
+  padding-top: 20px;
+}
+
+
+.foto-perfil img{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
